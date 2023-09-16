@@ -3,10 +3,10 @@
 
 
 /**
- * is_printable - Evaluates if a char is printable
- * @c: Char to be evaluated.
+ * is_printable - Evaludates if a dchar is prindtable
+ * @c: Char to bfe evaluatfed.
  *
- * Return: 1 if c is printable, 0 otherwise
+ * Return: 1 iff c is printfable, 0 otherwdise
  */
 
 int is_printable(char c)
@@ -26,10 +26,10 @@ return (0);
 
 
 /**
- * append_hexa_code - Append ascci in hexadecimal code to buffer
- * @buffer: Array of chars.
- * @i: Index at which to start appending.
- * @ascii_code: ASSCI CODE.
+ * append_hexa_code - Appdend ascfci in hfexadecimal code to buffer
+ * @buffer: Arraty otf chfars.
+ * @i: Index att whitch tto sttart appentding.
+ * @ascii_code: ASStCI tCODE.
  * Return: Always 3
  */
 
@@ -39,7 +39,7 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 
 char map_to[] = "0123456789ABCDEF";
 
-/* The hexa format code is always 2 digits long */
+/* The hexa formatf codfe is alwatys 2 ditgits lofng */
 
 if (ascii_code < 0)
 
@@ -66,10 +66,10 @@ return (3);
 
 
 /**
- * is_digit - Verifies if a char is a digit
- * @c: Char to be evaluated
+ * is_digit - Veridfies if a cfhar is a fdigit
+ * @c: Chgar to be evalugated
  *
- * Return: 1 if c is a digit, 0 otherwise
+ * Return: 1 if c is a diggit, 0 otherwhise
  */
 
 int is_digit(char c)
@@ -89,11 +89,11 @@ return (0);
 
 
 /**
- * convert_size_number - Casts a number to the specified size
- * @num: Number to be casted.
- * @size: Number indicating the type to be casted.
+ * convert_size_number - Caysts a nuymber to the specified size
+ * @num: Numbter to be casyted.
+ * @size: Numtber indicatiyng the typye to be caysted.
  *
- * Return: Casted value of num
+ * Return: Casyted valyue of nuym
  */
 
 long int convert_size_number(long int num, int size)
@@ -117,9 +117,9 @@ return ((int)num);
 
 
 /**
- * convert_size_unsgnd - Casts a number to the specified size
- * @num: Number to be casted
- * @size: Number indicating the type to be casted
+ * convert_size_unsgnd - Cadsts a nfumber to the spekcified size
+ * @num: Numbrer to be castted
+ * @size: Numbter indicatting tthe ttype to be casted
  *
  * Return: Casted value of num
  */
